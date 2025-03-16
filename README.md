@@ -1,9 +1,9 @@
 # Assignment for ImagoAI
 
-Overview
+# Overview
 This project involves processing hyperspectral imaging data, performing dimensionality reduction, and developing a machine learning model to predict mycotoxin levels (DON concentration) in corn samples. The model utilizes several regression models for accurate predictions.
 
-Dataset Description
+# Dataset Description
 The dataset contains spectral reflectance values across multiple wavelength bands for corn samples. The key columns include:
 
 hsi_id: Unique identifier for each sample.
@@ -12,22 +12,23 @@ Spectral features: Reflectance values across various wavelength bands.
 
 mycotoxin_levels: Target variable (DON concentration).
 
-Features Implemented
-Data Preprocessing
-Handling missing values (imputation with median values)
+# Features Implemented
+1)Data Preprocessing
 
-Feature normalization using StandardScaler
+2)Handling missing values (imputation with median values)
 
-Principal Component Analysis (PCA) for dimensionality reduction
+3)Feature normalization using StandardScaler
 
-Model Training & Optimization
-Use of Neural Network, Decision Tree Regression, Gradient Bossting Regression, XGBoost regression model
+4)Principal Component Analysis (PCA) for dimensionality reduction
 
-Hyperparameter tuning (learning rate, max depth, subsampling, etc.)
+# Model Training & Optimization
+1)Use of Neural Network, Decision Tree Regression, Gradient Bossting Regression, XGBoost regression model
 
-Early stopping to prevent overfitting
+2)Hyperparameter tuning (learning rate, max depth, subsampling, etc.)
 
-Evaluation & Visualization
-Metrics: MAE, RMSE, and R² score
+3)Early stopping to prevent overfitting
 
-Scatter plot for actual vs. predicted values
+# Evaluation & Visualization
+1)Metrics: MAE, RMSE, and R² score
+
+2)Scatter plot for actual vs. predicted values
